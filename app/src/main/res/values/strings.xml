@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Fitv1</string>
+    <string name="facebook_app_id">2319769008072501</string>
+    <string name="fb_login_protocol_scheme">fb2319769008072501</string>
+    <string name="logout">Log Out</string>
+    <string name="cancel_login">Log in canceled</string>
+    <string name="error_login">Error while trying to log in</string>
+    <string name="title_home">Home</string>
+    <string name="title_workout">Work!</string>
+    <string name="title_social">Social</string>
+    <string name="title_plan">Plan</string>
+    <string name="title_game">Game</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Log_out">Log Out</string>
+
+
+    <string name="Registers">Registers</string>
+    <string name="empty_plans_view">No Plans Created yet</string>
+    <string name="plan_empty_advise">Click add plan to create one</string>
+    <string name="title_session_header">Title of Session</string>
+    <string name="description_session_header">Here comes the description of the Session</string>
+    <string name="tot_effor_points_field_session">Total Effort Points Field</string>
+    <string name="tot_cal_field_session">Total Calories Session</string>
+    <string name="tot_duration_session">Days of Duration activity</string>
+    <string name="breakdown_exercise_type_sesion">Brekdown of the exercises during the session</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_basic_cmd_plan_header">Title</string>
+    <string name="tot_effor_points_field_basic_cmd_plan">Total Effort</string>
+    <string name="tot_cal_field_basic_cmd_plan">Calories</string>
+    <string name="tot_duration_basic_cmd_plan">Duration</string>
+    <string name="breakdown_exercise_type_basic_cmd_plan">Distribution types</string>
+    <string name="description_basic_cmd_plan_header">Description</string>
+    <string name="editor_session_edit">Edit Session:</string>
+    <string name="editor_session_create">New Session</string>
+    <string name="editor_workout_edit">Edit Workout</string>
+    <string name="editor_workout_create">Create Workout</string>
+    <string name="dialog_question_new_or_add_existing_workout">Do you want to add an existing workout or create a new one?</string>
+    <string name="dialog_answer_add_existing_wkt">Add</string>
+    <string name="dialog_answer_cancel_wkt">Cancel</string>
+    <string name="dialog_answer_new_wkt">New Workout</string>
+    <string name="sessions">Sessions</string>
+    <string name="editor_exercise_edit">Edit Exercise</string>
+    <string name="editor_exercise_create">New Exercise</string>
+    <string name="dialog_answer_new_exercise">New Exercise</string>
+    <string name="dialog_question_new_or_add_existing_exercise">Do you want to add an existing exercise or create a new one?</string>
+
+
+</resources>

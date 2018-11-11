@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.WorkoutFragment">
+
+    <LinearLayout
+        android:id="@+id/cmd_header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical">
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/header_item_plan" />
+
+    </LinearLayout>
+
+    <!--  <LinearLayout
+          android:id="@+id/session_header"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="40"
+          android:orientation="vertical">
+          <EditText
+              android:id="@+id/title_header_session"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="10"
+              android:gravity="center"
+              android:text="@string/title_session_header"/>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="50"
+              android:orientation="horizontal">
+              <EditText
+                  android:id="@+id/tot_effort_points_session"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="25"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text="@string/tot_effor_points_field_session"/>
+              <EditText
+                  android:id="@+id/tot_cal_session"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="25"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text="@string/tot_cal_field_session"/>
+              <EditText
+                  android:id="@+id/tot_duration_session"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="25"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text="@string/tot_duration_session"/>
+              <EditText
+                  android:id="@+id/tot_composition_type_session"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="25"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:text="@string/breakdown_exercise_type_sesion"/>
+
+
+          </LinearLayout>
+
+          <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="40">
+              <EditText
+              android:id="@+id/description_header_session"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+                  android:maxLines="4"
+                  android:singleLine="false"
+                  android:text="@string/description_session_header"/>
+          </ScrollView>
+
+
+      </LinearLayout>
+       -->
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="60">
+          <LinearLayout
+              android:id="@+id/workouts_container_in_session_cmd"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+          </LinearLayout>
+          <android.support.design.widget.FloatingActionButton
+              android:id="@+id/fab_add_workout_to_session"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_alignParentRight="true"
+              android:layout_gravity="bottom|right"
+              android:layout_marginEnd="15dp"
+              android:layout_marginBottom="15dp"
+              android:src="@drawable/ic_android_black_24dp"/>
+      </RelativeLayout>
+  </LinearLayout>

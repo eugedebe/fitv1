@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "190858891797",
+    "firebase_url": "https://fitv1-60771.firebaseio.com",
+    "project_id": "fitv1-60771",
+    "storage_bucket": "fitv1-60771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190858891797:android:c1eb5bb23d0f49ba",
+        "android_client_info": {
+          "package_name": "com.debenedetti.juaneugenio.fitv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190858891797-sal54qi41118gqeuv3frphq2lj77jp38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debenedetti.juaneugenio.fitv1",
+            "certificate_hash": "29ed1700af9a7a5f01e0b7679d456ae0349e18a5"
+          }
+        },
+        {
+          "client_id": "190858891797-2r3epo7c2lgnavn50su83ffiac3mktlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsXA_wu0VmGnE9b1dF-1UkkmjRZClaKEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190858891797-2r3epo7c2lgnavn50su83ffiac3mktlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
